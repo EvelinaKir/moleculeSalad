@@ -80,6 +80,11 @@ const OneIngredient: FC<{ ingredient: ToneMolecule }> = ({ ingredient }) => {
       newArr.push({ molecule: ingredient, qty: counter });
       dispatch(changeOrder(newArr));
     }
+    if (counter === 0 && order) {
+      dispatch(
+        changeOrder(order.filter((el) => el.molecule._id !== ingredient._id))
+      );
+    }
   }, [counter]);
 
   return (
