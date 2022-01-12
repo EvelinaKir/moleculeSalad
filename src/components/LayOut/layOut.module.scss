@@ -1,0 +1,35 @@
+.container {
+  padding: 1vh 1vw;
+  max-width: 1260px;
+  margin: 0 auto;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
+}
+
+.choose {
+  width: 50vmin;
+  margin-left: auto;
+  background-color: #6753d8;
+  border-radius: 11px;
+  border: 2px solid #6753d8;
+  box-shadow: 4px 4px 8px rgb(54, 40, 136);
+}
+
+.mainContent {
+  max-width: 80vw;
+  height: 80vh;
+  background-color: #f8f7ff;
+  margin: 0 auto;
+  border: 2px solid #6753d8;
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px rgb(54, 40, 136);
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    display: grid;
+  }
+}

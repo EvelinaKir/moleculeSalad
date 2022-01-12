@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.saladImage {
+  max-width: 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+.detail {
+  max-width: 25px;
+  margin-bottom: -5px;
+  cursor: pointer;
+}

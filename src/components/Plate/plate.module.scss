@@ -1,0 +1,87 @@
+.container {
+  width: 40vmin;
+  // margin-top: auto;
+  margin-left: auto;
+}
+
+.plate {
+  // border: 3px solid #B8B8FF;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: auto;
+  margin-right: auto;
+}
+
+.header {
+  padding: 15px;
+  margin-bottom: 15vh;
+
+  border: 3px solid #b8b8ff;
+  border-radius: 15px;
+  box-shadow: 4px 0px 8px #a69dff;
+  color: rgb(15, 2, 27);
+  cursor: default;
+  font-weight: 600;
+  text-align: center;
+}
+
+.saladContainer {
+  margin: 0 auto;
+  height: 20vh;
+  text-align: center;
+  h3 {
+    font-size: 34px;
+    font-weight: 500;
+  }
+}
+
+.trash {
+  max-height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.makeAnOrder {
+  background-color: #a69dff;
+  font-size: 40px;
+  font-weight: 500;
+  border: 2px solid #a69dff;
+  position: relative;
+  width: 40vmin;
+  border-radius: 10px;
+  color: #2f2f55;
+  bottom: 23vmin;
+  cursor: pointer;
+  &:hover {
+    background-color: #7f76d1;
+  }
+}
+
+.infoAboutOrder {
+  background-color: #a69dff;
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  width: 40vmin;
+  bottom: 23vmin;
+  border-radius: 10px;
+  color: #2f2f55;
+  bottom: 23vmin;
+  cursor: default;
+  text-align: center;
+}
+
+.CustomContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  h1 {
+    font-weight: 400;
+  }
+}
+
+.orderInfo {
+  margin: 10px;
+  max-height: 30vmin;
+  overflow-y: auto;
+}

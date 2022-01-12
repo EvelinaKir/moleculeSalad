@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    background-image: url(./images/background.jpg);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+a, li, span, h1, h2, h3, h4, h5, h6, button, ul {
+  list-style: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-variant: normal; 
+  font-weight:100; 
+  margin: 0;
+  padding: 0;
+    }
+
+
+
+    ::-webkit-scrollbar {
+      width: 9px;
+      background-color: inherit;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      border: 2px solid     rgb(54, 40, 136);
+      background-color: #5545b3;
+      border-radius: 6px;
+    }

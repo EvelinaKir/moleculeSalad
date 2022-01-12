@@ -1,0 +1,14 @@
+.container {
+  h1 {
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+
+.salads {
+  max-height: 65vh;
+  overflow: auto;
+  background-color: #5c4ac0;
+}
